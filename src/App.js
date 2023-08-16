@@ -5,6 +5,7 @@ import './App.css';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
+import Doodles from './components/Doodles/Doodles';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/doodles' element={<Doodles />}/>
       </Routes>
       <Footer />
     </Router>
