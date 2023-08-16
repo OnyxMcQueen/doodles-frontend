@@ -61,3 +61,8 @@
     font-weight: bolder;
     font-size: 48px;
   }
+
+  .menu h3:hover {
+    text-shadow: 4px 2px 2px rgb(187, 184, 184);
+    transition: 0.2s ease-in;
+  }
