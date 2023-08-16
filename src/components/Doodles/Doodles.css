@@ -1,0 +1,53 @@
+.doodles-container {
+    text-align: center;
+    width: 80%;
+}
+
+.doodles-container h2 {
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+
+.doodles-container blockquote {
+    background-color: rgb(236, 238, 240);
+    width: 80%;
+    margin: 0 auto;
+    font-style: italic;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-6 img {
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.doodle-image:hover {
+    margin-top: 5px;
+    box-shadow: 7px 0 5px rgb(187, 184, 184);
+    transition: 0.3s ease;
+}
+
+.doodle-title {
+    font-size: 22px;
+}
+
+.doodle-title:hover {
+    text-shadow: 4px 2px 2px rgb(187, 184, 184);
+    transition: 0.2s ease-in;
+}
+
