@@ -1,0 +1,13 @@
+.home-container {
+    text-align: center;
+}
+
+.home-title {
+    font-size: 60px;
+}
+
+.home-title:hover {
+    color: white;
+    transition: 0.6s ease-out;
+    text-shadow: 7px 4px 0 black;
+}
