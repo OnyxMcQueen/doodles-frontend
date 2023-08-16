@@ -10,7 +10,8 @@ function Home() {
       <h1 className='home-title'>Welcome to Pencil Palette</h1>
 
       <Carousel />
-      <p>Pickle Juice!</p>
+      <br />
+      <br />
     </div>
   )
 }
