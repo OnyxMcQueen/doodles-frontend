@@ -1,0 +1,8 @@
+.edit-doodle-container {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: 2px solid rgb(182, 172, 172);
+    border-radius: 10px;
+}
