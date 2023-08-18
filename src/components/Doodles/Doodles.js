@@ -14,7 +14,6 @@ function Doodles() {
     async function getDoodleData(){
         try{
             let result = await axios.get(`${url}/doodles`);
-            console.log(result.data);
             setDoodleArray(result.data);
         }
         catch(error){
