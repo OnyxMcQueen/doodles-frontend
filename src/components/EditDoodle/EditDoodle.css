@@ -6,3 +6,67 @@
     border: 2px solid rgb(182, 172, 172);
     border-radius: 10px;
 }
+
+.edit-doodle-title {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.edit-doodle-blockquote {
+    background-color: rgb(236, 238, 240);
+    width: 80%;
+    margin: 0 auto;
+    font-style: italic;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+input[type=text] {
+    width: 80%;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+input[type=text]:focus {
+    border: 2px solid rgb(182, 172, 172);
+  }
+
+.form-group {
+    margin-top: 25px;
+}
+
+.form-group label {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.form-group textarea {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.small {
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.edit-doodle-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-style: none;
+}
+
+.edit-doodle-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s ease-out;
+    box-shadow: 7px 4px 0 black;
+}
