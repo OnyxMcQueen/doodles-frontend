@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import Doodles from './components/Doodles/Doodles';
 import Doodle from './components/Doodle/Doodle';
 import EditDoodle from './components/EditDoodle/EditDoodle';
+import NewDoodle from './components/NewDoodle/NewDoodle';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/doodles' element={<Doodles />}/>
         <Route path='/doodles/:id' element={<Doodle />}/>
         <Route path='/doodles/:id/edit' element={<EditDoodle />}/>
+        <Route path='/new-doodle' element={<NewDoodle />}/>
       </Routes>
       <Footer />
     </Router>
