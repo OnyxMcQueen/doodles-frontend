@@ -72,7 +72,7 @@ function EditDoodle() {
             <div className='form-group mx-5'>
                 <label htmlFor='created_date'>Date Created</label>
                 <br />
-                <span className='small'>Please ensure the date matches the exact format: YYYY-MM-DD</span>
+                <span className='small'>Please ensure the date matches the exact format *include dashes* : YYYY-MM-DD</span>
                 <input required type='text' className='form-control' id='created_date' value={selectedDoodle.created_date.substring(0, 10)} onChange={handleChange}/>
             </div>
 
