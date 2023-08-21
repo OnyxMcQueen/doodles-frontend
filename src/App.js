@@ -10,6 +10,7 @@ import Doodle from './components/Doodle/Doodle';
 import EditDoodle from './components/EditDoodle/EditDoodle';
 import NewDoodle from './components/NewDoodle/NewDoodle';
 import AboutMe from './components/AboutMe/AboutMe';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/doodles/:id/edit' element={<EditDoodle />}/>
         <Route path='/new-doodle' element={<NewDoodle />}/>
         <Route path='/about-me' element={<AboutMe />}/>
+        <Route path='*' element={<ErrorPage />}/>
       </Routes>
       <Footer />
     </Router>
