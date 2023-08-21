@@ -9,6 +9,7 @@ import Doodles from './components/Doodles/Doodles';
 import Doodle from './components/Doodle/Doodle';
 import EditDoodle from './components/EditDoodle/EditDoodle';
 import NewDoodle from './components/NewDoodle/NewDoodle';
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/doodles/:id' element={<Doodle />}/>
         <Route path='/doodles/:id/edit' element={<EditDoodle />}/>
         <Route path='/new-doodle' element={<NewDoodle />}/>
+        <Route path='/about-me' element={<AboutMe />}/>
       </Routes>
       <Footer />
     </Router>
