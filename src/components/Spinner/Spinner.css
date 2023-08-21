@@ -1,3 +1,10 @@
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh; /* Or any other appropriate height */
+}
+
 .spinner-container {
     margin: 27vh auto;
 }

@@ -4,8 +4,10 @@ import './Spinner.css';
 
 function Spinner() {
   return (
-    <div className='spinner-container'>
-        <div class="custom-loader"></div>
+    <div class="spinner-parent">
+        <div class="spinner-container">
+            <div class="custom-loader"></div>
+        </div>
     </div>
   )
 }
