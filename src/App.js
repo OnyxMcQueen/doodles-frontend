@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Spinner from './components/Spinner/Spinner';
+
 
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
@@ -14,19 +16,21 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   return (
-    <Router>
-      <Nav />
-      <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/doodles' element={<Doodles />}/>
-        <Route path='/doodles/:id' element={<Doodle />}/>
-        <Route path='/doodles/:id/edit' element={<EditDoodle />}/>
-        <Route path='/new-doodle' element={<NewDoodle />}/>
-        <Route path='/about-me' element={<AboutMe />}/>
-        <Route path='*' element={<ErrorPage />}/>
-      </Routes>
-      <Footer />
-    </Router>
+    <React.Suspense fallback={<Spinner />}>
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/doodles' element={<Doodles />}/>
+          <Route path='/doodles/:id' element={<Doodle />}/>
+          <Route path='/doodles/:id/edit' element={<EditDoodle />}/>
+          <Route path='/new-doodle' element={<NewDoodle />}/>
+          <Route path='/about-me' element={<AboutMe />}/>
+          <Route path='*' element={<ErrorPage />}/>
+        </Routes>
+        <Footer />
+      </Router>
+    </React.Suspense>
   );
 }
 
